@@ -14,6 +14,7 @@ class SpiderdemoItem(scrapy.Item):
     pass
 class demoItem(scrapy.Item):
     name = scrapy.Field()
-    author = scrapy.Field()
+    date = scrapy.Field()
     url = scrapy.Field()
+    description = scrapy.Field()
 
